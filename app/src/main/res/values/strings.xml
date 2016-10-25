@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Idiot Jigsaw</string>
+    <string name="title">Idiot Jigsaw</string>
+    <string name="game">游戏</string>
+    <string name="event">成绩</string>
+    <string name="settings">设置</string>
+    <string name="about">关于 Idiot Jigsaw</string>
+    <string name="help">帮助</string>
+    <string name="start">开始游戏</string>
+    <string name="end">结束游戏</string>
+</resources>

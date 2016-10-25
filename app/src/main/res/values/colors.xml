@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="div_white">#eeeeee</color>
+    <color name="div_black">#000000</color>
+    <color name="title">#000000</color>
+    <color name="top_bar">#FFFFFF</color>
+    <color name="btn_white">#FFFFFF</color>
+    <color name="frag_bkg">#eeeeee</color>
+    <color name="bkg_black">#000000</color>
+    <color name="bkg_white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.liwei.idiotjigsaw.MainActivity">
+
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/ly_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/top_bar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title"
+            android:textColor="@color/title"
+            android:id="@+id/txt_top_title"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        
+        <View
+            android:id="@+id/div_top"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_botton_bar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_game"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_menu_bkg"
+            android:textColor="@drawable/tab_menu_text"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_game"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="@string/game" />
+        <TextView
+            android:id="@+id/txt_event"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_menu_bkg"
+            android:textColor="@drawable/tab_menu_text"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_event"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="@string/event" />
+        <TextView
+            android:id="@+id/txt_settings"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_menu_bkg"
+            android:textColor="@drawable/tab_menu_text"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_settings"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="@string/settings" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/div_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+
+        android:layout_above="@+id/ly_botton_bar"
+        android:background="@color/div_white"/>
+    <FrameLayout
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/div_bottom"
+        android:layout_below="@+id/ly_top_title"/>
+</RelativeLayout>
